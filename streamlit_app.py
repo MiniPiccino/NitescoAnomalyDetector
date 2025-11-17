@@ -2,14 +2,14 @@ from __future__ import annotations
 
 import json
 import math
-from pathlib import Path
+from pathlib import Path, PureWindowsPath
 from typing import List, Tuple
 
 import pandas as pd
 import streamlit as st
 
 
-DEFAULT_PREDICTIONS_PATH = "./outputs/stage_predictions.json"
+DEFAULT_PREDICTIONS_PATH = Path("./outputs/stage_predictions.json")
 
 
 def page_setup() -> None:
@@ -23,8 +23,51 @@ def page_setup() -> None:
     st.caption("Inspect stage predictions, confidence scores, and preview testing images.")
 
 
+def normalize_image_path(raw_image: str, source_file: Path, image_root: Path | None = None) -> Path:
+    """
+    Convert an image path coming from Windows or relative JSON paths to a usable Path.
+
+    - Windows absolute paths (e.g., C:\\...) are mapped to /mnt/<drive>/... for WSL.
+    - Relative paths are resolved against the predictions file directory.
+    - When the above do not exist, we try the user-provided image root (helps on Streamlit Cloud).
+    """
+    raw_str = str(raw_image or "").strip()
+    if not raw_str:
+        return Path()
+
+    candidates: list[Path] = []
+
+    path = Path(raw_str).expanduser()
+    if path.is_absolute():
+        candidates.append(path)
+
+    windows_path = PureWindowsPath(raw_str)
+    if windows_path.drive:
+        # Convert "C:\\path\\to\\file" -> "/mnt/c/path/to/file" when running under WSL.
+        drive_letter = windows_path.drive.rstrip(":").lower()
+        candidates.append(Path("/mnt") / drive_letter / Path(*windows_path.parts[1:]))
+
+    if not path.is_absolute():
+        candidates.append(source_file.parent / path)
+
+    if image_root:
+        if windows_path.drive:
+            candidates.append(image_root / Path(*windows_path.parts[1:]))
+        candidates.append(image_root / path)
+        candidates.append(image_root / Path(raw_str).name)
+
+    if source_file.parent.name == "outputs":
+        candidates.append(source_file.parent.parent / "out_dir" / "images" / Path(raw_str).name)
+
+    for candidate in candidates:
+        if candidate.exists():
+            return candidate
+
+    return candidates[-1] if candidates else Path()
+
+
 @st.cache_data(show_spinner=False)
-def load_predictions(path_str: str) -> pd.DataFrame:
+def load_predictions(path_str: str | Path) -> pd.DataFrame:
     """Load predictions from a JSON file into a DataFrame."""
     path = Path(path_str).expanduser().resolve()
     if not path.exists():
@@ -149,7 +192,14 @@ def render_stage_summary(frame: pd.DataFrame, stage_column: str) -> None:
     st.dataframe(counts, use_container_width=True)
 
 
-def render_gallery(frame: pd.DataFrame, images_per_page: int, page: int, stage_column: str) -> None:
+def render_gallery(
+    frame: pd.DataFrame,
+    images_per_page: int,
+    page: int,
+    stage_column: str,
+    predictions_file: Path,
+    image_root: Path | None,
+) -> None:
     """Render a paginated gallery of prediction thumbnails."""
     if frame.empty:
         st.info("No images to display with the selected filters.")
@@ -170,7 +220,7 @@ def render_gallery(frame: pd.DataFrame, images_per_page: int, page: int, stage_c
                 column.empty()
                 continue
             record = subset.iloc[index]
-            image_path = Path(str(record["image"]))
+            image_path = normalize_image_path(str(record["image"]), predictions_file, image_root)
             if image_path.exists():
                 column.image(str(image_path), use_column_width=True)
             else:
@@ -220,7 +270,8 @@ def main() -> None:
         return
 
     try:
-        predictions = load_predictions(predictions_path)
+        predictions_file = Path(predictions_path).expanduser().resolve()
+        predictions = load_predictions(predictions_file)
     except FileNotFoundError as exc:
         st.error(str(exc))
         return
@@ -228,10 +279,28 @@ def main() -> None:
         st.error(f"Failed to parse predictions JSON: {exc}")
         return
 
+    # When deploying to Streamlit Cloud, allow overriding where images live.
+    default_image_root = None
+    for candidate in (
+        predictions_file.parent / "images",
+        predictions_file.parent.parent / "out_dir" / "images",
+    ):
+        if candidate.exists():
+            default_image_root = candidate
+            break
+
+    image_root_input = st.sidebar.text_input(
+        "Image root directory (optional)",
+        value=str(default_image_root or ""),
+        help="Set if your predictions JSON points to image paths that don't exist locally (e.g., Windows paths). "
+        "Provide a folder containing the images; filenames will be matched automatically.",
+    ).strip()
+    image_root = Path(image_root_input).expanduser().resolve() if image_root_input else default_image_root
+
     filtered, per_page, page, stage_column = sidebar_controls(predictions)
 
     render_stage_summary(filtered if not filtered.empty else predictions, stage_column)
-    render_gallery(filtered, per_page, page, stage_column)
+    render_gallery(filtered, per_page, page, stage_column, predictions_file, image_root)
     render_table(filtered)
 
 
