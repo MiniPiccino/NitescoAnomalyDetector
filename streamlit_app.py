@@ -39,23 +39,28 @@ def normalize_image_path(raw_image: str, source_file: Path, image_root: Path | N
     candidates: list[Path] = []
 
     path = Path(raw_str).expanduser()
-    if path.is_absolute():
+    windows_path = PureWindowsPath(raw_str)
+    is_windows_abs = bool(windows_path.drive)
+
+    # POSIX-style absolute path
+    if path.is_absolute() and not is_windows_abs:
         candidates.append(path)
 
-    windows_path = PureWindowsPath(raw_str)
-    if windows_path.drive:
+    if is_windows_abs:
         # Convert "C:\\path\\to\\file" -> "/mnt/c/path/to/file" when running under WSL.
         drive_letter = windows_path.drive.rstrip(":").lower()
         candidates.append(Path("/mnt") / drive_letter / Path(*windows_path.parts[1:]))
-
-    if not path.is_absolute():
-        candidates.append(source_file.parent / path)
+    else:
+        if not path.is_absolute():
+            candidates.append(source_file.parent / path)
 
     if image_root:
-        if windows_path.drive:
+        if is_windows_abs:
             candidates.append(image_root / Path(*windows_path.parts[1:]))
-        candidates.append(image_root / path)
-        candidates.append(image_root / Path(raw_str).name)
+            candidates.append(image_root / windows_path.name)
+        else:
+            candidates.append(image_root / path)
+            candidates.append(image_root / Path(raw_str).name)
 
     if source_file.parent.name == "outputs":
         candidates.append(source_file.parent.parent / "out_dir" / "images" / Path(raw_str).name)
