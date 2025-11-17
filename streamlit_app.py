@@ -9,6 +9,7 @@ import pandas as pd
 import streamlit as st
 
 
+APP_ROOT = Path(__file__).resolve().parent
 DEFAULT_PREDICTIONS_PATH = Path("./outputs/stage_predictions.json")
 
 
@@ -58,6 +59,10 @@ def normalize_image_path(raw_image: str, source_file: Path, image_root: Path | N
 
     if source_file.parent.name == "outputs":
         candidates.append(source_file.parent.parent / "out_dir" / "images" / Path(raw_str).name)
+
+    # Fallback to common in-repo locations (useful on Streamlit Cloud).
+    candidates.append(APP_ROOT / "out_dir" / "images" / Path(raw_str).name)
+    candidates.append(APP_ROOT.parent / "out_dir" / "images" / Path(raw_str).name)
 
     for candidate in candidates:
         if candidate.exists():
@@ -224,7 +229,7 @@ def render_gallery(
             if image_path.exists():
                 column.image(str(image_path), use_column_width=True)
             else:
-                column.warning(f"Image not found:\n{image_path.name}")
+                column.warning(f"Image not found:\n{image_path}")
             stage_value = record.get(stage_column, "N/A")
             confidence = record.get("confidence")
             caption_lines: List[str] = [
@@ -284,6 +289,8 @@ def main() -> None:
     for candidate in (
         predictions_file.parent / "images",
         predictions_file.parent.parent / "out_dir" / "images",
+        APP_ROOT / "out_dir" / "images",
+        APP_ROOT.parent / "out_dir" / "images",
     ):
         if candidate.exists():
             default_image_root = candidate
