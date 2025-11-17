@@ -313,7 +313,6 @@ def main() -> None:
 
     render_stage_summary(filtered if not filtered.empty else predictions, stage_column)
     render_gallery(filtered, per_page, page, stage_column, predictions_file, image_root)
-    render_table(filtered)
 
 
 if __name__ == "__main__":
