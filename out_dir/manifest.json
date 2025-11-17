@@ -1,0 +1,10 @@
+{
+  "num_entries": 215,
+  "output_dir": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir",
+  "images_dir": "images",
+  "jsonl": "data.jsonl",
+  "headers_detected": {
+    "date": 1,
+    "day": 2
+  }
+}
