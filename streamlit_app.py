@@ -9,7 +9,7 @@ import pandas as pd
 import streamlit as st
 
 
-DEFAULT_PREDICTIONS_PATH = Path("outputs") / "stage_predictions.json"
+DEFAULT_PREDICTIONS_PATH = "./outputs/stage_predictions.json"
 
 
 def page_setup() -> None:
