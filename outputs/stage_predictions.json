@@ -1,0 +1,1419 @@
+[
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0007_1.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.398228257894516,
+      0.3272706866264343,
+      0.0035990390460938215,
+      0.2483254075050354,
+      0.02257663570344448
+    ],
+    "stage_value": 0,
+    "confidence": 0.398228257894516
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0007_2.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.6489956974983215,
+      0.2561470568180084,
+      0.005019497126340866,
+      0.041059792041778564,
+      0.04877801984548569
+    ],
+    "stage_value": 0,
+    "confidence": 0.6489956974983215
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0007_3.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.8162564635276794,
+      0.17904524505138397,
+      0.0005656963330693543,
+      0.004000518936663866,
+      0.00013205288269091398
+    ],
+    "stage_value": 0,
+    "confidence": 0.8162564635276794
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0007_4.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.9997759461402893,
+      0.00015581666957587004,
+      2.9779325814160984e-06,
+      6.517923611681908e-05,
+      6.254339268707554e-08
+    ],
+    "stage_value": 0,
+    "confidence": 0.9997759461402893
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0007_5.jpg",
+    "pred_stage": 1,
+    "probabilities": [
+      0.21805228292942047,
+      0.774121105670929,
+      0.0009717123466543853,
+      0.003188829403370619,
+      0.003666039789095521
+    ],
+    "stage_value": 1,
+    "confidence": 0.774121105670929
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0034_6.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.9963704347610474,
+      0.00297083449549973,
+      2.894407316489378e-06,
+      0.000606268469709903,
+      4.9688766011968255e-05
+    ],
+    "stage_value": 0,
+    "confidence": 0.9963704347610474
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0034_7.jpg",
+    "pred_stage": 4,
+    "probabilities": [
+      0.016075700521469116,
+      0.35377126932144165,
+      0.07654368877410889,
+      0.012104353867471218,
+      0.5415049195289612
+    ],
+    "stage_value": 4,
+    "confidence": 0.5415049195289612
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0034_8.jpg",
+    "pred_stage": 3,
+    "probabilities": [
+      0.4176265001296997,
+      0.06076642498373985,
+      0.015743432566523552,
+      0.5051062107086182,
+      0.0007573951734229922
+    ],
+    "stage_value": 3,
+    "confidence": 0.5051062107086182
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0034_9.jpg",
+    "pred_stage": 1,
+    "probabilities": [
+      0.04184827581048012,
+      0.8649938106536865,
+      0.0031994760502129793,
+      0.0005527018220163882,
+      0.08940574526786804
+    ],
+    "stage_value": 1,
+    "confidence": 0.8649938106536865
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0045_10.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.5087417364120483,
+      0.4614911675453186,
+      0.003964317962527275,
+      0.017677906900644302,
+      0.008124921470880508
+    ],
+    "stage_value": 0,
+    "confidence": 0.5087417364120483
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0063_11.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.9915055632591248,
+      0.0014287144877016544,
+      0.006779692135751247,
+      3.422889858484268e-05,
+      0.00025174563052132726
+    ],
+    "stage_value": 0,
+    "confidence": 0.9915055632591248
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0063_12.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.5370402336120605,
+      0.4628622531890869,
+      2.9601040296256542e-05,
+      1.6363312170142308e-05,
+      5.153338861418888e-05
+    ],
+    "stage_value": 0,
+    "confidence": 0.5370402336120605
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0063_13.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.8683627247810364,
+      0.008019347675144672,
+      0.09456460922956467,
+      0.0287869181483984,
+      0.00026629812782630324
+    ],
+    "stage_value": 0,
+    "confidence": 0.8683627247810364
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0063_14.jpg",
+    "pred_stage": 1,
+    "probabilities": [
+      0.003037004731595516,
+      0.9790080785751343,
+      0.0005738867912441492,
+      0.017380917444825172,
+      1.6859540608038515e-07
+    ],
+    "stage_value": 1,
+    "confidence": 0.9790080785751343
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0084_18.jpg",
+    "pred_stage": 1,
+    "probabilities": [
+      0.006211312487721443,
+      0.9900898933410645,
+      0.0027844670694321394,
+      0.0006185624515637755,
+      0.0002956267853733152
+    ],
+    "stage_value": 1,
+    "confidence": 0.9900898933410645
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0085_15.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.8896822333335876,
+      0.002871193690225482,
+      0.00014391855802387,
+      0.06048893555998802,
+      0.046813707798719406
+    ],
+    "stage_value": 0,
+    "confidence": 0.8896822333335876
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0085_16.jpg",
+    "pred_stage": 1,
+    "probabilities": [
+      0.00588025851175189,
+      0.6591688394546509,
+      0.006258718203753233,
+      0.11197095364332199,
+      0.21672117710113525
+    ],
+    "stage_value": 1,
+    "confidence": 0.6591688394546509
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0085_17.jpg",
+    "pred_stage": 1,
+    "probabilities": [
+      0.3593590557575226,
+      0.6264748573303223,
+      0.00040255955536849797,
+      0.0059996130876243114,
+      0.007763969246298075
+    ],
+    "stage_value": 1,
+    "confidence": 0.6264748573303223
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0105_19.jpg",
+    "pred_stage": 2,
+    "probabilities": [
+      0.39827772974967957,
+      0.008156943134963512,
+      0.5490947961807251,
+      0.044280197471380234,
+      0.00019029721443075687
+    ],
+    "stage_value": 2,
+    "confidence": 0.5490947961807251
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0105_20.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.4186519682407379,
+      0.0006784432334825397,
+      0.07892520725727081,
+      0.3389827311038971,
+      0.16276171803474426
+    ],
+    "stage_value": 0,
+    "confidence": 0.4186519682407379
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0105_21.jpg",
+    "pred_stage": 3,
+    "probabilities": [
+      0.030812498182058334,
+      0.01881735771894455,
+      0.011115350760519505,
+      0.5271085500717163,
+      0.4121461808681488
+    ],
+    "stage_value": 3,
+    "confidence": 0.5271085500717163
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0127_22.jpg",
+    "pred_stage": 1,
+    "probabilities": [
+      0.07485765218734741,
+      0.8667382001876831,
+      0.009881925769150257,
+      0.011406696401536465,
+      0.0371154248714447
+    ],
+    "stage_value": 1,
+    "confidence": 0.8667382001876831
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0127_23.jpg",
+    "pred_stage": 3,
+    "probabilities": [
+      0.2586619555950165,
+      0.00653879577293992,
+      0.0008855308406054974,
+      0.7333363890647888,
+      0.0005773018347099423
+    ],
+    "stage_value": 3,
+    "confidence": 0.7333363890647888
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0148_24.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.7250626087188721,
+      0.2733787000179291,
+      0.001547161489725113,
+      1.1518077371874824e-05,
+      3.70770925073316e-09
+    ],
+    "stage_value": 0,
+    "confidence": 0.7250626087188721
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0149_25.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.5195637941360474,
+      0.14217981696128845,
+      0.3331677317619324,
+      0.004345286637544632,
+      0.0007433157879859209
+    ],
+    "stage_value": 0,
+    "confidence": 0.5195637941360474
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0168_26.jpg",
+    "pred_stage": 1,
+    "probabilities": [
+      0.05808304250240326,
+      0.9408906102180481,
+      0.0005346799734979868,
+      0.00010950302385026589,
+      0.0003822242433670908
+    ],
+    "stage_value": 1,
+    "confidence": 0.9408906102180481
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0168_27.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.9988306164741516,
+      0.0006357771926559508,
+      3.856029252347071e-06,
+      0.0005288955289870501,
+      7.965504664753098e-07
+    ],
+    "stage_value": 0,
+    "confidence": 0.9988306164741516
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0169_28.jpg",
+    "pred_stage": 1,
+    "probabilities": [
+      0.1744619905948639,
+      0.8049173355102539,
+      0.020488310605287552,
+      1.9075479940511286e-05,
+      0.00011326325329719111
+    ],
+    "stage_value": 1,
+    "confidence": 0.8049173355102539
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0169_29.jpg",
+    "pred_stage": 1,
+    "probabilities": [
+      0.11898236721754074,
+      0.7552353739738464,
+      0.004764890763908625,
+      0.10846113413572311,
+      0.01255617942661047
+    ],
+    "stage_value": 1,
+    "confidence": 0.7552353739738464
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0169_30.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.4901121258735657,
+      0.09781306236982346,
+      0.3410797715187073,
+      0.07072663307189941,
+      0.000268377858446911
+    ],
+    "stage_value": 0,
+    "confidence": 0.4901121258735657
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0189_31.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.680020809173584,
+      0.04027729853987694,
+      0.006436883006244898,
+      0.2638702988624573,
+      0.009394753724336624
+    ],
+    "stage_value": 0,
+    "confidence": 0.680020809173584
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0189_32.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.9841105937957764,
+      0.01586267538368702,
+      1.9335051547386684e-05,
+      6.3470415625488386e-06,
+      1.0615704013616778e-06
+    ],
+    "stage_value": 0,
+    "confidence": 0.9841105937957764
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0189_33.jpg",
+    "pred_stage": 1,
+    "probabilities": [
+      0.24217261373996735,
+      0.744799017906189,
+      0.0002483631542418152,
+      0.012777144089341164,
+      2.796864919218933e-06
+    ],
+    "stage_value": 1,
+    "confidence": 0.744799017906189
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0189_34.jpg",
+    "pred_stage": 1,
+    "probabilities": [
+      0.30670323967933655,
+      0.684783935546875,
+      0.006953491363674402,
+      3.380766429472715e-05,
+      0.0015255315229296684
+    ],
+    "stage_value": 1,
+    "confidence": 0.684783935546875
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0210_35.jpg",
+    "pred_stage": 1,
+    "probabilities": [
+      0.016218194738030434,
+      0.9788419604301453,
+      0.0010162655962631106,
+      0.0006104206549935043,
+      0.00331322243437171
+    ],
+    "stage_value": 1,
+    "confidence": 0.9788419604301453
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0210_36.jpg",
+    "pred_stage": 3,
+    "probabilities": [
+      0.37364527583122253,
+      0.006930888630449772,
+      0.0006662869709543884,
+      0.5783501863479614,
+      0.04040737822651863
+    ],
+    "stage_value": 3,
+    "confidence": 0.5783501863479614
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0210_37.jpg",
+    "pred_stage": 1,
+    "probabilities": [
+      0.09491072595119476,
+      0.7383403182029724,
+      0.027884982526302338,
+      0.004899068269878626,
+      0.1339648813009262
+    ],
+    "stage_value": 1,
+    "confidence": 0.7383403182029724
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0232_38.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.8987217545509338,
+      0.008273527957499027,
+      0.046469546854496,
+      0.041574444621801376,
+      0.004960622172802687
+    ],
+    "stage_value": 0,
+    "confidence": 0.8987217545509338
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0232_39.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.9862090945243835,
+      0.008086358197033405,
+      1.83576594281476e-05,
+      0.0055526187643408775,
+      0.00013352063251659274
+    ],
+    "stage_value": 0,
+    "confidence": 0.9862090945243835
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0232_40.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.8287196755409241,
+      0.0072233835235238075,
+      0.0348721519112587,
+      0.12814544141292572,
+      0.0010392910335212946
+    ],
+    "stage_value": 0,
+    "confidence": 0.8287196755409241
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0232_41.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.9701874256134033,
+      0.00010680704872356728,
+      0.0046549164690077305,
+      0.02250971831381321,
+      0.0025411357637494802
+    ],
+    "stage_value": 0,
+    "confidence": 0.9701874256134033
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0232_42.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.9985125660896301,
+      0.00028836840647272766,
+      2.3251152015291154e-05,
+      0.0011584333842620254,
+      1.7320759070571512e-05
+    ],
+    "stage_value": 0,
+    "confidence": 0.9985125660896301
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0256_43.jpg",
+    "pred_stage": 1,
+    "probabilities": [
+      0.02745119482278824,
+      0.6262950301170349,
+      0.22297872602939606,
+      0.12242124229669571,
+      0.0008538117399439216
+    ],
+    "stage_value": 1,
+    "confidence": 0.6262950301170349
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0257_44.jpg",
+    "pred_stage": 3,
+    "probabilities": [
+      0.0015361413825303316,
+      0.016823720186948776,
+      0.00039564649341627955,
+      0.9798469543457031,
+      0.001397451269440353
+    ],
+    "stage_value": 3,
+    "confidence": 0.9798469543457031
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0257_45.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.9923284649848938,
+      0.00014255594578571618,
+      4.7598448873031884e-05,
+      0.004098544362932444,
+      0.0033828797750175
+    ],
+    "stage_value": 0,
+    "confidence": 0.9923284649848938
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0257_46.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.5612167119979858,
+      0.4375430941581726,
+      9.903242607833818e-05,
+      0.000895204022526741,
+      0.0002459336828906089
+    ],
+    "stage_value": 0,
+    "confidence": 0.5612167119979858
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0257_48.jpg",
+    "pred_stage": 1,
+    "probabilities": [
+      0.24933680891990662,
+      0.75041264295578,
+      1.2018244888167828e-06,
+      0.00024122963077388704,
+      8.04779938334832e-06
+    ],
+    "stage_value": 1,
+    "confidence": 0.75041264295578
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0270_47.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.9976457953453064,
+      0.002139354357495904,
+      7.130266794774798e-07,
+      0.0002113928203471005,
+      2.729767857090337e-06
+    ],
+    "stage_value": 0,
+    "confidence": 0.9976457953453064
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0270_49.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.7311494946479797,
+      0.18756774067878723,
+      7.961222081576125e-08,
+      0.08117841929197311,
+      0.00010431882401462644
+    ],
+    "stage_value": 0,
+    "confidence": 0.7311494946479797
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0290_50.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.9999736547470093,
+      1.3203295566199813e-05,
+      2.7971105431845444e-09,
+      1.239034872924094e-06,
+      1.1897473996214103e-05
+    ],
+    "stage_value": 0,
+    "confidence": 0.9999736547470093
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0290_51.jpg",
+    "pred_stage": 3,
+    "probabilities": [
+      0.42486053705215454,
+      0.001604349003173411,
+      0.011191748082637787,
+      0.42513352632522583,
+      0.13720987737178802
+    ],
+    "stage_value": 3,
+    "confidence": 0.42513352632522583
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0290_52.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.9929332733154297,
+      0.006262339185923338,
+      0.0005363406962715089,
+      0.00018379883840680122,
+      8.422318933298811e-05
+    ],
+    "stage_value": 0,
+    "confidence": 0.9929332733154297
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0290_53.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.9219694137573242,
+      0.07770964503288269,
+      1.862684075604193e-05,
+      4.913925295113586e-05,
+      0.00025318795815110207
+    ],
+    "stage_value": 0,
+    "confidence": 0.9219694137573242
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0291_54.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.9803101420402527,
+      0.007762474939227104,
+      3.7976756175339688e-06,
+      0.011916795745491982,
+      6.934868451935472e-06
+    ],
+    "stage_value": 0,
+    "confidence": 0.9803101420402527
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0313_55.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.707399308681488,
+      0.0009518684237264097,
+      0.00014511913468595594,
+      0.2914712727069855,
+      3.237959026591852e-05
+    ],
+    "stage_value": 0,
+    "confidence": 0.707399308681488
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0313_56.jpg",
+    "pred_stage": 3,
+    "probabilities": [
+      0.07839987426996231,
+      0.17244213819503784,
+      0.00032709803781472147,
+      0.748773455619812,
+      5.7490822655381635e-05
+    ],
+    "stage_value": 3,
+    "confidence": 0.748773455619812
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0313_57.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.9331705570220947,
+      0.05434038117527962,
+      0.0051433127373456955,
+      0.004124895203858614,
+      0.003220893908292055
+    ],
+    "stage_value": 0,
+    "confidence": 0.9331705570220947
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0313_58.jpg",
+    "pred_stage": 1,
+    "probabilities": [
+      0.2758474051952362,
+      0.7078374028205872,
+      0.006319296546280384,
+      0.009498287923634052,
+      0.0004975873744115233
+    ],
+    "stage_value": 1,
+    "confidence": 0.7078374028205872
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0336_59.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.9894726872444153,
+      0.0008007970754988492,
+      0.0014032594626769423,
+      0.007529470603913069,
+      0.0007936707697808743
+    ],
+    "stage_value": 0,
+    "confidence": 0.9894726872444153
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0336_60.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.9999992847442627,
+      5.159812417332432e-07,
+      6.910167371643183e-08,
+      1.6435494387678773e-07,
+      4.217330484834747e-08
+    ],
+    "stage_value": 0,
+    "confidence": 0.9999992847442627
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0336_61.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.7449386119842529,
+      0.25471892952919006,
+      1.6091908037196845e-05,
+      7.064137753332034e-05,
+      0.00025578183704055846
+    ],
+    "stage_value": 0,
+    "confidence": 0.7449386119842529
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0336_62.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.9690031409263611,
+      0.02711193822324276,
+      0.000125834732898511,
+      0.003643105970695615,
+      0.00011595059186220169
+    ],
+    "stage_value": 0,
+    "confidence": 0.9690031409263611
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0361_63.jpg",
+    "pred_stage": 3,
+    "probabilities": [
+      0.06320284307003021,
+      0.021484000608325005,
+      0.08622327446937561,
+      0.8289206027984619,
+      0.0001692827499937266
+    ],
+    "stage_value": 3,
+    "confidence": 0.8289206027984619
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0361_64.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.9994888305664062,
+      0.00024182449851650745,
+      0.00012621967471204698,
+      0.00014213363465387374,
+      1.0040198503702413e-06
+    ],
+    "stage_value": 0,
+    "confidence": 0.9994888305664062
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0361_65.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.868641197681427,
+      0.07973473519086838,
+      0.05144195258617401,
+      6.169381958898157e-05,
+      0.00012039535795338452
+    ],
+    "stage_value": 0,
+    "confidence": 0.868641197681427
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0361_66.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.9543343782424927,
+      0.03603978827595711,
+      2.7606058210949413e-05,
+      0.00958176888525486,
+      1.642722236283589e-05
+    ],
+    "stage_value": 0,
+    "confidence": 0.9543343782424927
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0386_67.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.9738993644714355,
+      0.0060247150249779224,
+      0.002379882149398327,
+      0.006108473986387253,
+      0.011587608605623245
+    ],
+    "stage_value": 0,
+    "confidence": 0.9738993644714355
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0386_68.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.9995651841163635,
+      0.000428966450272128,
+      1.2768546184815932e-06,
+      4.549421646515839e-06,
+      1.2960768458469829e-08
+    ],
+    "stage_value": 0,
+    "confidence": 0.9995651841163635
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0386_69.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.8210602402687073,
+      0.12027180939912796,
+      0.01653485931456089,
+      0.02182723395526409,
+      0.02030596137046814
+    ],
+    "stage_value": 0,
+    "confidence": 0.8210602402687073
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0386_70.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.8568360209465027,
+      0.14274010062217712,
+      7.51998377381824e-05,
+      0.00028819486033171415,
+      6.05978311796207e-05
+    ],
+    "stage_value": 0,
+    "confidence": 0.8568360209465027
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0413_73.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.9932518601417542,
+      0.006094954442232847,
+      2.168486844311701e-06,
+      0.0006269012810662389,
+      2.4050908905337565e-05
+    ],
+    "stage_value": 0,
+    "confidence": 0.9932518601417542
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0415_71.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.9999730587005615,
+      6.892729743412929e-06,
+      4.6366574224521173e-07,
+      1.9531998987076804e-05,
+      2.7093746690631804e-10
+    ],
+    "stage_value": 0,
+    "confidence": 0.9999730587005615
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0415_72.jpg",
+    "pred_stage": 1,
+    "probabilities": [
+      0.0012740340316668153,
+      0.9823744297027588,
+      3.187307811458595e-05,
+      0.016316719353199005,
+      3.0866162887832616e-06
+    ],
+    "stage_value": 1,
+    "confidence": 0.9823744297027588
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0415_74.jpg",
+    "pred_stage": 3,
+    "probabilities": [
+      0.042330678552389145,
+      0.24389447271823883,
+      1.2626694569917163e-06,
+      0.7137582302093506,
+      1.5355817595263943e-05
+    ],
+    "stage_value": 3,
+    "confidence": 0.7137582302093506
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0440_75.jpg",
+    "pred_stage": 3,
+    "probabilities": [
+      0.03902462124824524,
+      0.000244626950006932,
+      6.3494130699837115e-06,
+      0.927191436290741,
+      0.03353298082947731
+    ],
+    "stage_value": 3,
+    "confidence": 0.927191436290741
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0441_76.jpg",
+    "pred_stage": 3,
+    "probabilities": [
+      0.20152834057807922,
+      0.0001730316726025194,
+      8.79712970345281e-05,
+      0.7923751473426819,
+      0.005835452117025852
+    ],
+    "stage_value": 3,
+    "confidence": 0.7923751473426819
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0441_77.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.9984921216964722,
+      0.00024728922289796174,
+      2.1269918306643376e-06,
+      0.0010949511779472232,
+      0.00016341889568138868
+    ],
+    "stage_value": 0,
+    "confidence": 0.9984921216964722
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0441_78.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.9758620858192444,
+      0.00029476548661477864,
+      0.0016859268071129918,
+      0.006169955711811781,
+      0.015987271443009377
+    ],
+    "stage_value": 0,
+    "confidence": 0.9758620858192444
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0462_79.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.9605416655540466,
+      0.035746440291404724,
+      6.312688492471352e-05,
+      7.364952034549788e-05,
+      0.0035751929972320795
+    ],
+    "stage_value": 0,
+    "confidence": 0.9605416655540466
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0466_80.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.9702962636947632,
+      4.67102145194076e-05,
+      0.0004936883342452347,
+      0.028921278193593025,
+      0.0002420842065475881
+    ],
+    "stage_value": 0,
+    "confidence": 0.9702962636947632
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0466_81.jpg",
+    "pred_stage": 1,
+    "probabilities": [
+      0.05596344918012619,
+      0.6467788815498352,
+      0.0007836348959244788,
+      0.2874930500984192,
+      0.008981001563370228
+    ],
+    "stage_value": 1,
+    "confidence": 0.6467788815498352
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0466_82.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.7974340915679932,
+      0.005753704346716404,
+      0.0002376832562731579,
+      0.1900034099817276,
+      0.006571146659553051
+    ],
+    "stage_value": 0,
+    "confidence": 0.7974340915679932
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0481_83.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.9905222058296204,
+      0.001269149943254888,
+      0.006297409068793058,
+      0.0006174510344862938,
+      0.0012938256841152906
+    ],
+    "stage_value": 0,
+    "confidence": 0.9905222058296204
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0485_84.jpg",
+    "pred_stage": 3,
+    "probabilities": [
+      0.2624397575855255,
+      0.0019645369611680508,
+      8.725997031433508e-05,
+      0.73196941614151,
+      0.0035391119308769703
+    ],
+    "stage_value": 3,
+    "confidence": 0.73196941614151
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0485_85.jpg",
+    "pred_stage": 3,
+    "probabilities": [
+      0.0017792538274079561,
+      0.010547487996518612,
+      1.714417157927528e-05,
+      0.9876551032066345,
+      1.1180875389982248e-06
+    ],
+    "stage_value": 3,
+    "confidence": 0.9876551032066345
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0485_86.jpg",
+    "pred_stage": 3,
+    "probabilities": [
+      0.030375031754374504,
+      0.0026893725153058767,
+      0.06502612680196762,
+      0.6468108892440796,
+      0.2550985813140869
+    ],
+    "stage_value": 3,
+    "confidence": 0.6468108892440796
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0503_89.jpg",
+    "pred_stage": 3,
+    "probabilities": [
+      0.05659389868378639,
+      0.0023479987867176533,
+      0.004417424090206623,
+      0.9362578392028809,
+      0.00038285201299004257
+    ],
+    "stage_value": 3,
+    "confidence": 0.9362578392028809
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0503_90.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.8616827130317688,
+      0.045562878251075745,
+      0.00025415056734345853,
+      0.09231037646532059,
+      0.00018992314289789647
+    ],
+    "stage_value": 0,
+    "confidence": 0.8616827130317688
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0503_91.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.6276154518127441,
+      0.017468808218836784,
+      0.0006296383799053729,
+      0.33217132091522217,
+      0.022114738821983337
+    ],
+    "stage_value": 0,
+    "confidence": 0.6276154518127441
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0503_92.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.9920156002044678,
+      0.0008429807494394481,
+      0.005478678271174431,
+      0.0007057202165015042,
+      0.0009571158443577588
+    ],
+    "stage_value": 0,
+    "confidence": 0.9920156002044678
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0507_88.jpg",
+    "pred_stage": 3,
+    "probabilities": [
+      0.17374145984649658,
+      0.032465171068906784,
+      0.10494180768728256,
+      0.5496215224266052,
+      0.13923005759716034
+    ],
+    "stage_value": 3,
+    "confidence": 0.5496215224266052
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0508_87.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.9866835474967957,
+      0.00034356984542682767,
+      2.0355672347704967e-07,
+      0.00045169630902819335,
+      0.012520972639322281
+    ],
+    "stage_value": 0,
+    "confidence": 0.9866835474967957
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0525_95.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.9894648790359497,
+      0.0005587715422734618,
+      0.0006728812004439533,
+      0.009252973832190037,
+      5.046698061050847e-05
+    ],
+    "stage_value": 0,
+    "confidence": 0.9894648790359497
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0527_93.jpg",
+    "pred_stage": 3,
+    "probabilities": [
+      0.007868865504860878,
+      0.0002386850246693939,
+      1.2943639376317151e-05,
+      0.9898462891578674,
+      0.002033219439908862
+    ],
+    "stage_value": 3,
+    "confidence": 0.9898462891578674
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0527_94.jpg",
+    "pred_stage": 3,
+    "probabilities": [
+      0.038159098476171494,
+      0.010548291727900505,
+      0.12763629853725433,
+      0.8189682364463806,
+      0.004688080865889788
+    ],
+    "stage_value": 3,
+    "confidence": 0.8189682364463806
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0549_97.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.9490687251091003,
+      0.04058855026960373,
+      1.0064062735182233e-05,
+      0.001246446161530912,
+      0.009086263366043568
+    ],
+    "stage_value": 0,
+    "confidence": 0.9490687251091003
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0549_98.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.8653724193572998,
+      0.0024360553361475468,
+      0.0004251980863045901,
+      0.057592954486608505,
+      0.07417334616184235
+    ],
+    "stage_value": 0,
+    "confidence": 0.8653724193572998
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0549_99.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.8483940362930298,
+      0.06386442482471466,
+      0.00010242537973681465,
+      0.08611179888248444,
+      0.0015272926539182663
+    ],
+    "stage_value": 0,
+    "confidence": 0.8483940362930298
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0550_96.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.9919939041137695,
+      4.634431434169528e-07,
+      3.9797097883820243e-07,
+      0.007764448877424002,
+      0.0002407630527159199
+    ],
+    "stage_value": 0,
+    "confidence": 0.9919939041137695
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0565_101.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.8249049186706543,
+      0.004145570565015078,
+      0.00683623319491744,
+      0.1636614203453064,
+      0.00045182244502939284
+    ],
+    "stage_value": 0,
+    "confidence": 0.8249049186706543
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0566_100.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.8289082646369934,
+      0.020532753318548203,
+      0.002467184327542782,
+      0.14601805806159973,
+      0.0020737010054290295
+    ],
+    "stage_value": 0,
+    "confidence": 0.8289082646369934
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0598_102.jpg",
+    "pred_stage": 4,
+    "probabilities": [
+      0.0016934687737375498,
+      0.00013868608220946044,
+      1.7234225424545002e-07,
+      0.08158103376626968,
+      0.9165866374969482
+    ],
+    "stage_value": 4,
+    "confidence": 0.9165866374969482
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0598_103.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.9647617340087891,
+      0.001880206516943872,
+      0.00031611722079105675,
+      0.014006062410771847,
+      0.019035903736948967
+    ],
+    "stage_value": 0,
+    "confidence": 0.9647617340087891
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0598_104.jpg",
+    "pred_stage": 1,
+    "probabilities": [
+      0.16774632036685944,
+      0.817500650882721,
+      0.0032092174515128136,
+      0.01151771005243063,
+      2.6021858502645046e-05
+    ],
+    "stage_value": 1,
+    "confidence": 0.817500650882721
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0598_105.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.6814923286437988,
+      0.09356258809566498,
+      1.0625153663568199e-05,
+      0.19752967357635498,
+      0.02740478701889515
+    ],
+    "stage_value": 0,
+    "confidence": 0.6814923286437988
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0599_106.jpg",
+    "pred_stage": 3,
+    "probabilities": [
+      0.006547623313963413,
+      0.012706342153251171,
+      1.5370289929705905e-06,
+      0.9805843830108643,
+      0.00016014340508263558
+    ],
+    "stage_value": 3,
+    "confidence": 0.9805843830108643
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0599_107.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.509964108467102,
+      0.38513314723968506,
+      4.0162149161915295e-06,
+      0.10487321019172668,
+      2.561779365350958e-05
+    ],
+    "stage_value": 0,
+    "confidence": 0.509964108467102
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0613_108.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.9926446676254272,
+      0.00022051511041354388,
+      3.118309905403294e-05,
+      0.00570368766784668,
+      0.0013997844653204083
+    ],
+    "stage_value": 0,
+    "confidence": 0.9926446676254272
+  },
+  {
+    "image": "C:\\Users\\RZbas\\Projects\\Nitesco\\AnomalyDetector\\out_dir\\images\\embedded_0614_109.jpg",
+    "pred_stage": 0,
+    "probabilities": [
+      0.6023036241531372,
+      0.006696274504065514,
+      0.06572308391332626,
+      0.012689454481005669,
+      0.3125874698162079
+    ],
+    "stage_value": 0,
+    "confidence": 0.6023036241531372
+  }
+]
